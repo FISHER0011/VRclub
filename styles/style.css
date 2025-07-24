@@ -555,57 +555,56 @@ header {
   line-height: 118%;
   letter-spacing: 0%;
   vertical-align: middle;
-  
 }
 .table-cell-split {
-  background: url(/assets/img/top-right.svg), url(/assets/img/bottom-left.svg);
+  background: url(../assets/img/top-right.svg),
+    url(../assets/img/bottom-left.svg);
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: top -2px right -2px, bottom -2px left -2px;
-    display: flex;
+  display: flex;
   align-items: flex-start;
   justify-content: flex-end;
-    padding-top: 20px;
+  padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 25px;
   padding-right: 25px;
   font-family: Montserrat;
-font-weight: 400;
-font-style: Regular;
-font-size: 20px;
-leading-trim: NONE;
-line-height: 118%;
-letter-spacing: 0%;
-vertical-align: middle;
-
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 20px;
+  leading-trim: NONE;
+  line-height: 118%;
+  letter-spacing: 0%;
+  vertical-align: middle;
 }
-.player{
+.player {
   margin-top: auto;
   margin-right: auto;
 }
-.button-table{
+.button-table {
   font-family: Montserrat;
-font-weight: 500;
-font-style: Medium;
-font-size: 15px;
-line-height: 160%;
-letter-spacing: 0%;
-background: rgba(227, 41, 102, 1);
-box-shadow: 0px 9px 26px 0px rgba(227, 41, 102, 0.3);
-border-radius: 32px;
-color: rgba(255, 255, 255, 1);
-display: flex;
-align-items: center;
-border: none;
-padding-left: 40px;
-padding-right: 40px;
-padding-bottom: 11px;
-padding-top: 11px;
-justify-content: center;
-margin-left: 615px;
-margin-bottom: 10px[x]=[y];
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 15px;
+  line-height: 160%;
+  letter-spacing: 0%;
+  background: rgba(227, 41, 102, 1);
+  box-shadow: 0px 9px 26px 0px rgba(227, 41, 102, 0.3);
+  border-radius: 32px;
+  color: rgba(255, 255, 255, 1);
+  display: flex;
+  align-items: center;
+  border: none;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 11px;
+  padding-top: 11px;
+  justify-content: center;
+  margin-left: 615px;
+  margin-bottom: 10px[x]=[y];
 }
-.arrow-table-button{
+.arrow-table-button {
   display: flex;
   align-items: center;
 }
